@@ -2,9 +2,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    /* Sets default font and removes margin */
 }
 
+/* Header styling */
 header {
     background-color: #fff;
     padding: 10px 20px;
@@ -12,12 +12,10 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    /* Styles the header with background color, padding, and border */
 }
 
 .logo {
     flex: 1;
-    /* Makes the logo take up available space */
 }
 
 .logo a {
@@ -25,7 +23,6 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    /* Styles the logo link */
 }
 
 .nav-wrapper {
@@ -34,13 +31,11 @@ header {
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
-    /* Styles the navigation wrapper */
 }
 
 .delivery-info {
     text-align: center;
     flex: 1;
-    /* Centers the delivery info text and makes it flexible */
 }
 
 .delivery-info a {
@@ -50,7 +45,6 @@ header {
     position: relative;
     right: 50%;
     color: orangered;
-    /* Styles the delivery info link */
 }
 
 nav {
@@ -58,7 +52,6 @@ nav {
     align-items: center;
     justify-content: flex-end;
     flex: 1;
-    /* Styles the navigation menu */
 }
 
 nav a {
@@ -66,43 +59,39 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
-    /* Styles the navigation links */
 }
 
+/* Video section styling */
 .header-video {
     position: relative;
     height: 100vh;
     overflow: hidden;
     border: 5px solid #333;
-    /* Styles the header video container */
 }
 
 .header-video video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Makes the video cover the container */
 }
 
+/* Promotional text styling */
 .promo-text {
     position: absolute;
     bottom: 20%;
     left: 20px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Styles the promotional text */
 }
 
 .promo-text h1 {
     font-size: 36px;
     margin: 0;
-    /* Styles the main heading */
 }
 
 .promo-text p {
     font-size: 18px;
     margin: 5px 0;
-    /* Styles the subheading */
 }
 
 .promo-text button {
@@ -112,24 +101,21 @@ nav a {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    /* Styles the button */
 }
 
 .promo-text button:hover {
     background-color: #333;
     color: white;
-    /* Styles the button on hover */
 }
 
+/* Main content sections */
 .section-1, .section-2, .section-3 {
     padding: 50px;
-    /* Styles for sections */
 }
 
 .section-2 {
     background-color: #f5f5f5;
     text-align: center;
-    /* Styles for the second section */
 }
 
 .products {
@@ -137,7 +123,6 @@ nav a {
     justify-content: space-around;
     margin-bottom: 50px;
     flex-wrap: wrap;
-    /* Styles the products container */
 }
 
 .product {
@@ -149,21 +134,23 @@ nav a {
     width: 30%;
     margin-right: 10px;
     margin-bottom: 20px;
-    /* Styles individual product */
+    transition: transform 0.3s; /* Smooth zoom effect */
 }
 
 .product img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    /* Styles product images */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
 }
 
 .shopping-info {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* Styles shopping info container */
 }
 
 .info-block {
@@ -174,19 +161,16 @@ nav a {
     text-align: center;
     max-width: 200px;
     margin-bottom: 20px;
-    /* Styles individual info block */
 }
 
 .section-3 {
     text-align: center;
     background-color: #fff;
     padding: 50px 20px;
-    /* Styles the third section */
 }
 
 .section-3 h2 {
     margin-top: 0;
-    /* Styles the heading of the third section */
 }
 
 .section-3 button {
@@ -197,20 +181,17 @@ nav a {
     border: 2px solid #000;
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
-    /* Styles the buttons in the third section */
 }
 
 .section-3 button:hover {
     background-color: #333;
     color: white;
-    /* Styles the buttons on hover in the third section */
 }
 
 .info-cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* Styles the info cards container */
 }
 
 .card {
@@ -221,43 +202,37 @@ nav a {
     text-align: center;
     max-width: 200px;
     margin-bottom: 20px;
-    /* Styles individual info card */
 }
 
+/* Footer styling */
 footer {
     background-color: #000;
     color: white;
     padding: 50px 20px;
     text-align: center;
-    /* Styles the footer */
 }
 
 .footer-content {
     max-width: 800px;
     margin: auto;
-    /* Styles the footer content */
 }
 
 .join-list {
     margin-bottom: 30px;
-    /* Styles the join list container */
 }
 
 .join-list .icon {
     font-size: 40px;
     display: block;
-    /* Styles the join list icon */
 }
 
 .join-list h2 {
     font-size: 24px;
     margin: 10px 0;
-    /* Styles the join list heading */
 }
 
 .join-list p {
     margin: 10px 0;
-    /* Styles the join list paragraph */
 }
 
 .join-list input {
@@ -265,20 +240,17 @@ footer {
     margin-right: 10px;
     width: 200px;
     border-radius: 10px;
-    /* Styles the join list input */
 }
 
 .join-list button {
     padding: 10px 20px;
     border-radius: 10px;
-    /* Styles the join list button */
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    /* Styles the footer links container */
 }
 
 .footer-links a {
@@ -286,12 +258,10 @@ footer {
     text-decoration: none;
     margin: 0 10px;
     font-size: 18px;
-    /* Styles the footer links */
 }
 
 .footer-links a:hover {
     text-decoration: underline;
-    /* Styles the footer links on hover */
 }
 
 /* Media Queries for Responsiveness */

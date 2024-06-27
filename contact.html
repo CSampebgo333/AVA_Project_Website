@@ -2,119 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Sets the character encoding to UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Makes the page responsive by setting the viewport width -->
     <title>Contact Us - AVAX Store</title>
-    <!-- Sets the title of the webpage -->
     <link rel="stylesheet" href="contact_styles.css">
-    <!-- Links to the external CSS file -->
 </head>
 <body>
-    <!-- Start of the body section -->
+    <!-- Header section with logo, delivery info, and navigation -->
     <header>
-        <!-- Header section -->
         <div class="logo">
-            <!-- Logo container -->
             <a href="index.html">Logo</a>
-            <!-- Link for the logo, currently links to the home page -->
         </div>
         <div class="nav-wrapper">
-            <!-- Wrapper for navigation elements -->
             <div class="delivery-info">
-                <!-- Container for delivery info text -->
                 <a href="#"><strong>Fast and free delivery, Fast Internet, anywhere, anytime.</strong></a>
-                <!-- Link for delivery info -->
             </div>
             <nav>
-                <!-- Navigation menu -->
                 <a href="index.html#section-1">Home</a>
-                <!-- Link to the Home section -->
                 <a href="contact.html">Contact</a>
-                <!-- Link to the Contact page -->
                 <a href="shop.html">Shop</a>
-                <!-- Link to the Shop page -->
             </nav>
         </div>
     </header>
+
+    <!-- Main contact form section -->
     <main>
-        <!-- Main content section -->
         <section id="contact">
-            <!-- Section for the contact form -->
             <h2>Want to contact Us? Fill this!</h2>
-            <!-- Heading for the contact section -->
             <form>
-                <!-- Contact form -->
                 <div class="form-group full-width">
-                    <!-- Full-width form group -->
                     <label for="name">Name *:</label>
-                    <!-- Label for name input -->
                     <input type="text" id="name" name="name" required>
-                    <!-- Name input field, required -->
                 </div>
                 <div class="form-group half-width">
-                    <!-- Half-width form group -->
                     <label for="role">Role:</label>
-                    <!-- Label for role input -->
                     <input type="text" id="role" name="role">
-                    <!-- Role input field -->
                 </div>
                 <div class="form-group half-width">
-                    <!-- Half-width form group -->
                     <label for="organization">Enterprise:</label>
-                    <!-- Label for organization input -->
                     <input type="text" id="organization" name="organization">
-                    <!-- Organization input field -->
                 </div>
                 <div class="form-group half-width">
-                    <!-- Half-width form group -->
                     <label for="email">Email *:</label>
-                    <!-- Label for email input -->
                     <input type="email" id="email" name="email" required>
-                    <!-- Email input field, required -->
                 </div>
                 <div class="form-group half-width">
-                    <!-- Half-width form group -->
                     <label for="phone">Phone number *:</label>
-                    <!-- Label for phone number input -->
                     <input type="tel" id="phone" name="phone" required>
-                    <!-- Phone number input field, required -->
                 </div>
                 <div class="form-group full-width">
-                    <!-- Full-width form group -->
                     <label for="message">Leave Us a note:</label>
-                    <!-- Label for message textarea -->
                     <textarea id="message" name="message"></textarea>
-                    <!-- Textarea for message -->
                 </div>
                 <button type="submit">Submit</button>
-                <!-- Submit button -->
             </form>
         </section>
     </main>
+
+    <!-- Footer section with email subscription and contact information -->
     <footer>
-        <!-- Footer section -->
         <div class="footer-content">
-            <!-- Container for footer content -->
             <div class="join-list">
-                <!-- Container for join list -->
                 <span class="icon">✉️</span>
-                <!-- Icon for join list -->
                 <h2>Join Our List!</h2>
                 <p>Stay ahead of rising costs—keep pace with Avax's latest router innovations!</p>
                 <input type="email" placeholder="Email Address">
                 <button>Pre Order</button>
             </div>
             <div class="footer-links">
-                <!-- Container for footer links -->
                 <a href="#"><strong>Contact: </strong>233 503848241</a>
-                <!-- Contact link -->
                 <a href="#"><strong>Email: </strong> avax.fde@gmail.com</a>
-                <!-- Email link -->
             </div>
         </div>
     </footer>
     <script src="scripts.js"></script>
-    <!-- Link to the external JavaScript file -->
 </body>
 </html>

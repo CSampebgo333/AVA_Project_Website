@@ -2,78 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Sets the character encoding to UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Makes the page responsive by setting the viewport width -->
     <title>AVAX Store</title>
-    <!-- Sets the title of the webpage -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Links to the external CSS file -->
 </head>
 <body>
-    <!-- Start of the body section -->
+    <!-- Header section with logo, delivery info, and navigation -->
     <header>
-        <!-- Header section -->
         <div class="logo">
-            <!-- Logo container -->
             <a href="#">Logo</a>
-            <!-- Link for the logo, currently links to the top of the page -->
         </div>
         <div class="nav-wrapper">
-            <!-- Wrapper for navigation elements -->
             <div class="delivery-info">
-                <!-- Container for delivery info text -->
                 <a href="#"><strong>Fast and free delivery, Fast Internet, anywhere, anytime.</strong></a>
-                <!-- Link for delivery info -->
             </div>
             <nav>
-                <!-- Navigation menu -->
                 <a href="#section-1">Home</a>
-                <!-- Link to the Home section -->
                 <a href="contact.html">Contact</a>
-                <!-- Link to the Contact page -->
                 <a href="shop.html">Shop</a>
-                <!-- Link to the Shop page -->
             </nav>
         </div>
     </header>
+
+    <!-- Video section with promotional text and shop button -->
     <section id="header-video" class="header-video">
-        <!-- Section for the header video -->
         <video autoplay muted loop>
-            <!-- Video element that plays automatically, is muted, and loops -->
             <source src="header_video.mp4" type="video/mp4">
-            <!-- Source of the video file -->
         </video>
         <div class="promo-text">
-            <!-- Container for promotional text over the video -->
             <h1>The Powerful ThreeSeams Router is Here</h1>
-            <!-- Main heading -->
             <p>Seriously Unstoppable</p>
-            <!-- Promotional subheading -->
             <button id="shopButton">Shop</button>
-            <!-- Button that links to the shop page -->
         </div>
     </section>
+
+    <!-- Main content sections -->
     <main>
-        <!-- Main content section -->
         <section id="section-1" class="section-1">
-            <!-- Placeholder section for future content -->
             <!-- Content from header_video.png -->
         </section>
         <section class="section-2">
-            <!-- Section for the latest release -->
             <h2>Last Release</h2>
-            <!-- Subheading -->
             <div class="products">
-                <!-- Container for product listings -->
                 <div class="product">
-                    <!-- Individual product container -->
                     <img src="avax.png" alt="Avax">
-                    <!-- Product image, specify the image file here -->
                     <h3>AVAX Pro Max</h3>
-                    <!-- Product name -->
                     <p>$99.99</p>
-                    <!-- Product price -->
                 </div>
                 <div class="product">
                     <img src="avax_pro.png" alt="AvaxPro">
@@ -87,13 +61,10 @@
                 </div>
             </div>
             <div class="shopping-info">
-                <!-- Container for shopping information blocks -->
                 <div class="info-block">
-                    <!-- Individual info block -->
                     <h3>Fast and Free Delivery</h3>
                     <p>Enjoy free delivery on most in-stock items.</p>
                     <a href="#">Learn More</a>
-                    <!-- Link for more information -->
                 </div>
                 <div class="info-block">
                     <h3>In-Store Pickup</h3>
@@ -108,16 +79,12 @@
             </div>
         </section>
         <section class="section-3">
-            <!-- Section for AVA-Routers -->
             <h2>AVA-Routers</h2>
             <p>Looks tiny, but is uninterruptible!</p>
             <button>Go to the Shop</button>
             <button onclick="scrollToVideo()">Watch our Launch Video</button>
-            <!-- Button to scroll to the video -->
             <div class="info-cards">
-                <!-- Container for info cards -->
                 <div class="card">
-                    <!-- Individual info card -->
                     <h3>Attractions</h3>
                     <p>Tiny Yet Mighty</p>
                 </div>
@@ -132,29 +99,23 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer section with email subscription and contact information -->
     <footer>
-        <!-- Footer section -->
         <div class="footer-content">
-            <!-- Container for footer content -->
             <div class="join-list">
-                <!-- Container for join list -->
                 <span class="icon">✉️</span>
-                <!-- Icon for join list -->
                 <h2>Join Our List!</h2>
                 <p>Stay ahead of rising costs—keep pace with Avax's latest router innovations!</p>
                 <input type="email" placeholder="Email Address">
                 <button>Pre Order</button>
             </div>
             <div class="footer-links">
-                <!-- Container for footer links -->
                 <a href="#"><strong>Contact: </strong>233 503848241</a>
-                <!-- Contact link -->
                 <a href="#"><strong>Email: </strong> avax.fde@gmail.com</a>
-                <!-- Email link -->
             </div>
         </div>
     </footer>
     <script src="scripts.js"></script>
-    <!-- Link to the external JavaScript file -->
 </body>
 </html>
