@@ -18,3 +18,7 @@ document.querySelectorAll('button').forEach(button => {
 function scrollToVideo() {
     document.getElementById('header-video').scrollIntoView({ behavior: 'smooth' });
 }
+
+document.getElementById('shopButton').addEventListener('click', function() {
+    window.location.href = 'shop.html';
+});
