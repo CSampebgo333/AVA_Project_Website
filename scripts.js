@@ -14,3 +14,7 @@ document.querySelectorAll('button').forEach(button => {
         button.style.color = '';
     });
 });
+
+function scrollToVideo() {
+    document.getElementById('header-video').scrollIntoView({ behavior: 'smooth' });
+}
