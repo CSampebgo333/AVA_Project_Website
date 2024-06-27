@@ -1,3 +1,4 @@
+/* General page styling */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -42,7 +43,7 @@ header {
     font-size: 16px;
     position: relative;
     right: 50%;
-    color:orangered;
+    color: orangered;
 }
 
 nav {
@@ -59,6 +60,7 @@ nav a {
     font-size: 18px;
 }
 
+/* Shop section styling */
 .shop-section {
     padding: 50px;
     text-align: center;
@@ -78,7 +80,6 @@ nav a {
     text-align: center;
     margin: 20px 0;
     width: 60%; /* Adjust width as needed */
-    padding-bottom: 300px;
 }
 
 .product img {
@@ -111,6 +112,7 @@ nav a {
     color: white;
 }
 
+/* Footer styling */
 footer {
     background-color: #000;
     color: white;
@@ -168,4 +170,84 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .nav-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .footer-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo-text h1 {
+        font-size: 28px;
+    }
+
+    .promo-text p {
+        font-size: 16px;
+    }
+
+    .promo-text button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    .footer-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .promo-text h1 {
+        font-size: 24px;
+    }
+
+    .promo-text p {
+        font-size: 14px;
+    }
+
+    .promo-text button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .header-video {
+        height: 60vh;
+    }
+
+    header {
+        padding: 5px 10px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .footer-content,
+    .footer-links a {
+        font-size: 14px;
+    }
 }

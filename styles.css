@@ -42,7 +42,7 @@ header {
     font-size: 16px;
     position: relative;
     right: 50%;
-    color:orangered;
+    color: orangered;
 }
 
 nav {
@@ -117,18 +117,18 @@ nav a {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .product {
     background: white;
-    padding-bottom: 300px;
+    padding-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%; /* Adjust width to ensure proper spacing */
+    width: 30%;
     margin-right: 10px;
-    object-fit: cover;
-    max-height: 300px;
+    margin-bottom: 20px;
 }
 
 .product img {
@@ -140,6 +140,7 @@ nav a {
 .shopping-info {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .info-block {
@@ -149,6 +150,7 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 200px;
+    margin-bottom: 20px;
 }
 
 .section-3 {
@@ -179,7 +181,7 @@ nav a {
 .info-cards {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -189,6 +191,7 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 200px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -248,4 +251,65 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .products, .shopping-info, .info-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product, .info-block, .card {
+        width: 80%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .promo-text h1 {
+        font-size: 28px;
+    }
+    .promo-text p {
+        font-size: 16px;
+    }
+    .promo-text button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .product, .info-block, .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .promo-text h1 {
+        font-size: 24px;
+    }
+    .promo-text p {
+        font-size: 14px;
+    }
+    .promo-text button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .header-video {
+        height: 60vh;
+    }
+    .product, .info-block, .card {
+        width: 100%;
+    }
+    header {
+        padding: 5px 10px;
+    }
+    .footer-content, .footer-links a {
+        font-size: 14px;
+    }
 }
