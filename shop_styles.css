@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    /* Sets default font and removes margin */
 }
 
 header {
@@ -11,10 +12,12 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
+    /* Styles the header with background color, padding, and border */
 }
 
 .logo {
     flex: 1;
+    /* Makes the logo take up available space */
 }
 
 .logo a {
@@ -22,6 +25,7 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+    /* Styles the logo link */
 }
 
 .nav-wrapper {
@@ -30,11 +34,13 @@ header {
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
+    /* Styles the navigation wrapper */
 }
 
 .delivery-info {
     text-align: center;
     flex: 1;
+    /* Centers the delivery info text and makes it flexible */
 }
 
 .delivery-info a {
@@ -44,6 +50,7 @@ header {
     position: relative;
     right: 50%;
     color: orangered;
+    /* Styles the delivery info link */
 }
 
 nav {
@@ -51,6 +58,7 @@ nav {
     align-items: center;
     justify-content: flex-end;
     flex: 1;
+    /* Styles the navigation menu */
 }
 
 nav a {
@@ -58,18 +66,21 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
+    /* Styles the navigation links */
 }
 
 /* Shop section styling */
 .shop-section {
     padding: 50px;
     text-align: center;
+    /* Styles the shop section */
 }
 
 .products {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Styles the products container */
 }
 
 .product {
@@ -80,21 +91,25 @@ nav a {
     text-align: center;
     margin: 20px 0;
     width: 60%; /* Adjust width as needed */
+    /* Styles individual product */
 }
 
 .product img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    /* Styles product images */
 }
 
 .product ul {
     list-style: none;
     padding: 0;
+    /* Removes default list styling */
 }
 
 .product ul li {
     text-align: left;
+    /* Aligns list items to the left */
 }
 
 .product button {
@@ -105,11 +120,13 @@ nav a {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    /* Styles the buttons */
 }
 
 .product button:hover {
     background-color: #333;
     color: white;
+    /* Styles the buttons on hover */
 }
 
 /* Footer styling */
@@ -118,29 +135,35 @@ footer {
     color: white;
     padding: 50px 20px;
     text-align: center;
+    /* Styles the footer */
 }
 
 .footer-content {
     max-width: 800px;
     margin: auto;
+    /* Styles the footer content */
 }
 
 .join-list {
     margin-bottom: 30px;
+    /* Styles the join list container */
 }
 
 .join-list .icon {
     font-size: 40px;
     display: block;
+    /* Styles the join list icon */
 }
 
 .join-list h2 {
     font-size: 24px;
     margin: 10px 0;
+    /* Styles the join list heading */
 }
 
 .join-list p {
     margin: 10px 0;
+    /* Styles the join list paragraph */
 }
 
 .join-list input {
@@ -148,17 +171,20 @@ footer {
     margin-right: 10px;
     width: 200px;
     border-radius: 10px;
+    /* Styles the join list input */
 }
 
 .join-list button {
     padding: 10px 20px;
     border-radius: 10px;
+    /* Styles the join list button */
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    /* Styles the footer links container */
 }
 
 .footer-links a {
@@ -166,10 +192,12 @@ footer {
     text-decoration: none;
     margin: 0 10px;
     font-size: 18px;
+    /* Styles the footer links */
 }
 
 .footer-links a:hover {
     text-decoration: underline;
+    /* Styles the footer links on hover */
 }
 
 /* Media Queries for Responsiveness */
@@ -177,77 +205,94 @@ footer {
     .nav-wrapper {
         flex-direction: column;
         align-items: flex-start;
+        /* Styles navigation wrapper for medium screens */
     }
 
     nav {
         width: 100%;
         justify-content: space-between;
+        /* Styles navigation for medium screens */
     }
 
     .products {
         width: 100%;
+        /* Styles products for medium screens */
     }
 
     .product {
         width: 80%;
+        /* Styles individual products for medium screens */
     }
 
     .footer-content {
         padding: 20px;
+        /* Styles footer content for medium screens */
     }
 }
 
 @media (max-width: 768px) {
     .promo-text h1 {
         font-size: 28px;
+        /* Styles promo text heading for small screens */
     }
 
     .promo-text p {
         font-size: 16px;
+        /* Styles promo text paragraph for small screens */
     }
 
     .promo-text button {
         font-size: 14px;
         padding: 8px 16px;
+        /* Styles promo text button for small screens */
     }
 
     .product {
         width: 90%;
+        /* Styles individual products for small screens */
     }
 
     .footer-content {
         padding: 20px;
+        /* Styles footer content for small screens */
     }
 }
 
 @media (max-width: 480px) {
     .promo-text h1 {
         font-size: 24px;
+        /* Styles promo text heading for extra small screens */
     }
 
     .promo-text p {
         font-size: 14px;
+        /* Styles promo text paragraph for extra small screens */
     }
 
     .promo-text button {
         font-size: 12px;
         padding: 6px 12px;
+        /* Styles promo text button for extra small screens */
     }
 
     .header-video {
         height: 60vh;
+        /* Styles header video for extra small screens */
     }
 
     header {
         padding: 5px 10px;
+        /* Styles header for extra small screens */
     }
 
     .product {
         width: 100%;
+        /* Styles individual products for extra small screens */
     }
 
     .footer-content,
     .footer-links a {
         font-size: 14px;
+        /* Styles footer content and links for extra small screens */
     }
 }
