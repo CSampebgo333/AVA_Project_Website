@@ -44,7 +44,7 @@ header {
     font-size: 16px;
     position: relative;
     right: 50%;
-    color: orangered;
+    color: orange;
 }
 
 nav {
@@ -128,13 +128,15 @@ nav a {
 .product {
     background: white;
     padding-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 30%;
     margin-right: 10px;
     margin-bottom: 20px;
     transition: transform 0.3s; /* Smooth zoom effect */
+    padding-top: 20px;
+    color: orange;
 }
 
 .product img {

@@ -39,13 +39,18 @@ AVAX Store/
 ├── contact_styles.css
 ├── scripts.js
 ├── images/
-│   ├── avax.png
-│   ├── avax_pro.png
-│   ├── avax_pro_max.png
-│   ├── beats_pill.png
-│   ├── beats_solo_4.png
-│   └── header_video.mp4
-|   |--------------We do not have images for now.
+│   ├── header_video.mp4
+│   ├── white_00.jpg
+│   ├── white_01.jpg
+│   ├── black_05.jpg
+│   ├── white_02.jpg
+|   ├── black_04.jpg
+│   ├── white_03.jpg
+│   ├── white_01.jpg
+│   ├── black_00.jpg
+│   ├── ............
+│   └── ............
+|   
 └── README.md
 
 File Descriptions
