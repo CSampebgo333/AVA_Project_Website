@@ -204,6 +204,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .delivery-info a {
+        width: 20%;
+        font-size: 16px;
+        position: relative;
+        left: 1%;
+    }
+    
     .promo-text h1 {
         font-size: 28px;
     }

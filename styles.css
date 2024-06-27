@@ -285,6 +285,14 @@ footer {
         width: 100%;
         justify-content: space-between;
     }
+
+    .delivery-info a {
+        width: 20%;
+        font-size: 16px;
+        position: relative;
+        left: 1%;
+    }
+    
     .promo-text h1 {
         font-size: 28px;
     }
