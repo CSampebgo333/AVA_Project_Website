@@ -120,12 +120,12 @@ nav a {
 
 .product {
     background: white;
-    padding: 50px;
+    padding-bottom: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 30%; /* Adjust width to ensure proper spacing */
-    margin-right: 20px;
+    margin-right: 40px;
     object-fit: cover;
     max-height: 300px;
 }
