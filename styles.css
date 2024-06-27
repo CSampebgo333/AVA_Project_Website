@@ -125,7 +125,7 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 30%; /* Adjust width to ensure proper spacing */
-    margin-right: 40px;
+    margin-right: 50px;
     object-fit: cover;
     max-height: 300px;
 }
@@ -191,21 +191,60 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000;
     color: white;
-    padding: 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
-button {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+.footer-content {
+    max-width: 800px;
+    margin: auto;
 }
 
-button:hover {
-    background-color: #333;
+.join-list {
+    margin-bottom: 30px;
+}
+
+.join-list .icon {
+    font-size: 40px;
+    display: block;
+}
+
+.join-list h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.join-list p {
+    margin: 10px 0;
+}
+
+.join-list input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.join-list button {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
     color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
