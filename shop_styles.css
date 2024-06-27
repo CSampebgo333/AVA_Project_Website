@@ -1,0 +1,125 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}
+
+.delivery-info {
+    text-align: center;
+    flex: 1;
+}
+
+.delivery-info a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    right: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.join-list {
+    margin-bottom: 30px;
+}
+
+.join-list .icon {
+    font-size: 40px;
+    display: block;
+}
+
+.join-list h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.join-list p {
+    margin: 10px 0;
+}
+
+.join-list input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.join-list button {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Shop section styling */
+#shop {
+    padding: 50px;
+    text-align: center;
+}
